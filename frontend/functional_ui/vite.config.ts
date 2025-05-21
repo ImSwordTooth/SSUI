@@ -8,7 +8,8 @@ const host = process.env.TAURI_DEV_HOST;
 // https://vitejs.dev/config/
 export default defineConfig(async ({ mode }) => {
   return {
-    base: "/functional_ui/",
+    // base: "/functional_ui/",
+    base: "./",
     plugins: [
         react(),
         customImport()
